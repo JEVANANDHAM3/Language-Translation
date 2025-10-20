@@ -10,6 +10,11 @@ python -m venv .venv
 ```bash
 pip install -r requirement.txt
 ```
+# Activate the python environment
+```bash
+source .venv/Scripts/activate
+```
+
 # Run the app
 ```bash
 streamlit run app.py
