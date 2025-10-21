@@ -6,10 +6,18 @@ git clone https://github.com/JEVANANDHAM3/Language-Translation.git
 ```bash
 python -m venv .venv
 ```
+
 # Install the dependency
 ```bash
 pip install -r requirement.txt
 ```
+
+# Login into the Hugging using huggingface-cli login
+```bash
+huggingface-cli login
+```
+Paste your api key
+
 # Activate the python environment
 ```bash
 source .venv/Scripts/activate
