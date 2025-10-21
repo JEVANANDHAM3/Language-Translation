@@ -23,3 +23,6 @@ py download.py
 ```bash
 streamlit run app.py
 ```
+
+```Note:```
+It is recommended  to give the audio input as  ``.wav`` format
