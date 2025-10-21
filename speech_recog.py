@@ -1,5 +1,6 @@
 import whisper
 import streamlit as st
+
 import torch
 
 @st.cache_resource
@@ -15,5 +16,4 @@ def recognise_speech(audio_file,code):
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     result = model.transcribe(audio_file,language=code)
-    print(result["text"])
     return result['text'] if 'text' in result else ""

@@ -14,6 +14,10 @@ pip install -r requirement.txt
 ```bash
 source .venv/Scripts/activate
 ```
+# run  the command
+```bash
+py download.py
+````
 
 # Run the app
 ```bash
