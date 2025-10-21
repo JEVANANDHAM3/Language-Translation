@@ -12,16 +12,18 @@ python -m venv .venv
 pip install -r requirement.txt
 ```
 
-# Login into the Hugging using huggingface-cli login
-```bash
-huggingface-cli login
-```
 Paste your api key
 
 # Activate the python environment
 ```bash
 source .venv/Scripts/activate
 ```
+
+# Login into the Hugging using huggingface-cli login
+```bash
+huggingface-cli login
+```
+
 # run  the command
 ```bash
 py download.py
